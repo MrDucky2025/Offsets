@@ -29,7 +29,7 @@ namespace Roblox {
     inline const uintptr_t LuaO_NilObject = REBASE(0x5788A68);
     inline const uintptr_t luaA_toobject = REBASE(0x35A5790);
     inline const uintptr_t luaH_Dummynode = REBASE(0x5788458);
-    inline const uintptr_t Luau_execute = REBASE(0x0);
+    inline const uintptr_t Luau_execute = REBASE(0x35BC760);
     inline const uintptr_t Pseudo2addr = REBASE(0x35A56D0);
     inline const uintptr_t KTable = REBASE(0x75486F0);
     inline const uintptr_t LuaVMLoad = REBASE(0x1597050);
@@ -46,7 +46,7 @@ namespace Roblox {
     inline const uintptr_t PushInstance = REBASE(0x1642920);
     inline const uintptr_t FireMouseHoverEnter = REBASE(0x1D900C0);
     inline const uintptr_t FireMouseHoverLeave = REBASE(0x1D90260);
-    inline const uintptr_t FireMouseClick = REBASE(0x0);
+    inline const uintptr_t FireMouseClick = REBASE(0x1D8EB20);
     inline const uintptr_t FireRightMouseClick = REBASE(0x1D8ECC0);
     inline const uintptr_t FireTouchInterest = REBASE(0x213F280);
     inline const uintptr_t FireProximityPrompt = REBASE(0x1E0A730);
