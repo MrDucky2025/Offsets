@@ -20,8 +20,8 @@ namespace Roblox {
     inline const uintptr_t AppDataInfo = REBASE(0x8014B38);
     inline const uintptr_t EnableLoadedModules = REBASE(0x68277D8);
     inline const uintptr_t FakeDataModelPointer = REBASE(0x8014E88);
-    inline const uintptr_t GetIdentityStruct = REBASE(0x0);
     inline const uintptr_t Impersonator = REBASE(0x38CC300);
+    inline const uintptr_t GetIdentityStruct = REBASE(0x92F0);
     inline const uintptr_t GetLuaState = REBASE(0x1568260);
     inline const uintptr_t LuaC_step = REBASE(0x35B6980);
     inline const uintptr_t LuaD_throw = REBASE(0x35A7560);
@@ -35,13 +35,13 @@ namespace Roblox {
     inline const uintptr_t LuaVMLoad = REBASE(0x1597050);
     inline const uintptr_t OpcodeLookupTable = REBASE(0x5C69D00);
     inline const uintptr_t luaL_argerrorL = REBASE(0x35AC510);
-    inline const uintptr_t luaL_typeerrorL = REBASE(0x1FA1240);
+    inline const uintptr_t luaL_typeerrorL = REBASE(0x35AC590);
     inline const uintptr_t luaL_findtable = REBASE(0x35B08E0);
     inline const uintptr_t luaL_where = REBASE(0x35AC6B0);
     inline const uintptr_t currfuncname = REBASE(0x35AC490);
     inline const uintptr_t luaM_visitgco = REBASE(0x35FB500);
     inline const uintptr_t VariantCastInt64 = REBASE(0xAC2880);
-    inline const uintptr_t GetProperty = REBASE(0xB6E3F0);
+    inline const uintptr_t GetProperty = REBASE(0x3E8C590);
     inline const uintptr_t GetValues = REBASE(0x1570990);
     inline const uintptr_t PushInstance = REBASE(0x1642920);
     inline const uintptr_t FireMouseHoverEnter = REBASE(0x1D900C0);
