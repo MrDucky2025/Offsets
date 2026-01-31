@@ -1,14 +1,14 @@
 // by Vertan/Ente
-version-4464ba36ceea461e
+version-db4634f0e27d4d36
 
 namespace Roblox {
 
     namespace Core {
-        inline uintptr_t DataModel = 0x28B1E6F7A38;
+        inline uintptr_t DataModel = 0x26D0D29E638;
         inline uintptr_t GameLoaded = 0x5F8;
         inline uintptr_t ScriptContext = 0x3F0;
         inline uintptr_t CoreScript = 0x180;
-        inline uintptr_t RequireBypass = 0x9A8; // maybe Wrong
+        inline uintptr_t RequireBypass = 0x970;
         inline uintptr_t ClassDescriptor = 0x18;
         inline uintptr_t ClassDescriptorToClassName = 0x8;
     }
@@ -35,9 +35,9 @@ namespace Roblox {
 
     namespace ByteCode {
         inline uintptr_t ModuleScriptBytecode = 0x150;
-        inline uintptr_t Bytecode = 0x18;
+        inline uintptr_t Bytecode = 0x10;
         inline uintptr_t BytecodeSize = 0x20;
-        inline uintptr_t LocalScriptBytecode = 0x1A8;
+        inline uintptr_t LocalScriptBytecode = 0x1B0;
     }
 
 }
