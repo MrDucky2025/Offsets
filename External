@@ -7,6 +7,7 @@ namespace Instance {
     constexpr size_t Parent          = 0x68;
     constexpr size_t ChildrenStart   = 0x70;
     constexpr size_t ChildrenEnd     = 0x8;
+    constexpr size_t Overlap         = 0x200;
 }
 
 namespace DataModel {
@@ -47,6 +48,13 @@ namespace GuiObject {
     constexpr size_t SizeConstraint       = 0x598;
     constexpr size_t Visible              = 0x5A5;
     constexpr size_t ZIndex               = 0x59C;
+}
+
+namespace Extra {
+    constexpr size_t GlobalState              = 0x140;
+    constexpr size_t RequireBypass            = 0x948;
+    constexpr size_t GetSetImplementation     = 0x90;
+    constexpr size_t Primitive                = 0x148;
 }
 
 }
